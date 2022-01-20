@@ -1,0 +1,25 @@
+.uk-section-secondary 
+{
+    background: #30343F!important;
+}
+
+.uk-section-muted 
+{
+    background: #E0E0E0!important;
+}
+
+a, .uk-link .uk-link-toggle .uk-link, .uk-link-toggle .uk-link 
+{
+    color: #D72638!important;
+}
+
+a:hover, .uk-link:hover, .uk-link-toggle:hover .uk-link, .uk-link-toggle:focus .uk-link 
+{
+    color: #30343F!important;
+	text-decoration: none;
+}
+
+.uk-section-primary 
+{
+    background: #D72638!important;
+}

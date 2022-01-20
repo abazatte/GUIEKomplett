@@ -1,0 +1,32 @@
+.uk-section-primary {
+  background-color: #9174C2 !important;
+}
+.uk-section-secondary {
+  background-color: #6E8B3D !important;
+}
+.uk-section-muted {
+  background-color: #E0E0E0 !important;
+}
+.uk-button-secondary {
+  background-color: #6E8B3D !important;
+}
+.uk-card-secondary {
+  background-color: #6E8B3D !important;
+}
+a {
+  color: black !important;
+  text-decoration: none !important;
+}
+a.active {
+  color: black !important;
+  text-decoration: none;
+}
+.uk-offcanvas-bar {
+  background: #6E8B3D !important;
+}
+svg {
+  color: white !important;
+}
+rect {
+  color: lightblue !important;
+}

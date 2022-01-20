@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <title>Title</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/uikit.css" />
+      <script src="js/uikit.min.js"></script>
+      <script src="js/uikit-icons.min.js"></script>
+   </head>
+   <body>
+	<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+		<nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;">
+			<div class="uk-navbar-left">
+				<ul class="uk-navbar-nav" uk-scrollspy-nav="closest: li; scroll: true">
+					<li><a class="uk-navbar-item uk-logo" uk-icon="world" href="#"></a></li>
+					<li>
+						<a href="#overlay">Overlay</a>
+					</li>
+					<li>
+						<a href="#longerTitle">longer title</a>
+					</li>
+					<li>
+						<a href="#inspirational">Inspirational</a>
+					</li>
+					<li>
+						<a href="#events">Events</a>
+					</li>
+					<li>
+						<a href="#article">Article</a>
+					</li>
+					<li>
+						<a href="#comments">Comments</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	<div id="overlay" class="sprung"></div>
+	<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="autoplay: true; autoplay-interval: 3000; ratio: 19:7; animation: slide">
+		<ul class="uk-slideshow-items">
+			<li>
+				<img src="img/forest.jpg" alt="" uk-cover>
+				<div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-margin uk-margin-left uk-margin-right">
+					<h3 class="uk-margin-remove">Overlay</h3>
+					<p class="uk-margin-remove uk-text-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/forest-path.jpg" alt="" uk-cover>
+				<div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-margin uk-margin-left uk-margin-right">
+					<h3 class="uk-margin-remove">Overlay</h3>
+					<p class="uk-margin-remove uk-text-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/man.jpg" alt="" uk-cover>
+				<div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-margin uk-margin-left uk-margin-right">
+					<h3 class="uk-margin-remove">Overlay</h3>
+					<p class="uk-margin-remove uk-text-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/river.jpg" alt="" uk-cover>
+				<div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-margin uk-margin-left uk-margin-right">
+					<h3 class="uk-margin-remove">Overlay</h3>
+					<p class="uk-margin-remove uk-text-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/people.jpg" alt="" uk-cover>
+				<div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-margin uk-margin-left uk-margin-right">
+					<h3 class="uk-margin-remove">Overlay</h3>
+					<p class="uk-margin-remove uk-text-primary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</div>
+			</li>
+		</ul>
+		<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+		<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+	</div>
+	<div id="longerTitle" class="sprung"></div>
+	<div class="uk-section uk-section-secondary uk-text-center">
+       <div class=" uk-container">
+         <h3>This could be a longer title!!!</h3>
+         <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+            <div class="uk-border-right uk-card-body uk-padding-remove-top uk-padding-remove-bottom">
+				<p class="uk-logo" uk-icon="world"></p>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="uk-border-right uk-card-body uk-padding-remove-top uk-padding-remove-bottom">
+				<p class="uk-logo" uk-icon="world"></p>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="uk-border-right uk-card-body uk-padding-remove-top uk-padding-remove-bottom">
+				<p class="uk-logo" uk-icon="world"></p>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+        </div>
+		<div class="uk-child-width-expand@s uk-text-center" uk-grid>
+            <div class="uk-border-right uk-card-body uk-padding-remove-top uk-padding-remove-bottom">
+				<p class="uk-logo" uk-icon="world"></p>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="uk-border-right uk-card-body uk-padding-remove-top uk-padding-remove-bottom">
+				<p class="uk-logo" uk-icon="world"></p>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="uk-border-right uk-card-body uk-padding-remove-top uk-padding-remove-bottom">
+				<p class="uk-logo" uk-icon="world"></p>
+                <p class="uk-margin-remove">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+        </div>
+       </div>
+    </div>
+	<div id="inspirational" class="sprung"></div>
+	<div class="uk-section uk-section-default">
+       <div class=" uk-container">
+         <h3>Very inspirational quote about reaching your goals or something</h3>
+		 <div class="uk-child-width-expand@s" uk-grid>
+			<div>
+				<div class="uk-card uk-card-default uk-card-body">
+					<h3>We have Reached 70% of our goal!</h3>
+					<progress class="uk-progress uk-background-muted" value="70" max="100"></progress>
+				</div>
+			</div>
+		 </div>	
+		 <div class="uk-child-width-1-3@m" uk-grid>
+			<div>
+				<div class="uk-card uk-card-default">
+					<div class="uk-card-badge uk-label">Reached</div>
+					<div class="uk-card-media-top">
+						<img src="img/forest-path.jpg" alt="">
+					</div>
+					<div class="uk-card-body">
+						<h3 class="uk-card-title">Goal 1</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+					</div>	
+				</div>
+			</div>
+			<div>
+				<div class="uk-card uk-card-default">
+					<div class="uk-card-badge uk-label">Reached</div>
+					<div class="uk-card-body">
+						<h3 class="uk-card-title">Goal 2</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+					</div>
+					<div class="uk-card-media-bottom">
+						<img src="img/forest.jpg" alt="">
+					</div>
+				</div>	
+			</div>
+			<div class="uk-card uk-card-default">
+					<div class="uk-card-media-top">
+						<img src="img/forest-path.jpg" alt="">
+					</div>
+					<div class="uk-card-body">
+						<h3 class="uk-card-title">Goal 3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+					</div>
+				</div>
+		</div>
+       </div>
+    </div>
+	<div id="events" class="sprung"></div>
+	<div class="uk-section uk-section-muted">
+       <div class=" uk-container">
+         <h2 class="no-margin">Events or something</h2>
+		 <br>
+		 <div class="uk-slider-container-offset" uk-slider="autoplay: true; autoplay-interval: 3000; center: true">
+			<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+				<ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+					<li>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media-top">
+								<img src="img/forest.jpg" alt="">
+							</div>
+							<div class="uk-card-body">
+								<h3 class="uk-card-title">Event-Name</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media-top">
+								<img src="img/forest-path.jpg" alt="">
+							</div>
+							<div class="uk-card-body">
+								<h3 class="uk-card-title">Event-Name</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media-top">
+								<img src="img/man.jpg" alt="">
+							</div>
+							<div class="uk-card-body">
+								<h3 class="uk-card-title">Event-Name</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media-top">
+								<img src="img/river.jpg" alt="">
+							</div>
+							<div class="uk-card-body">
+								<h3 class="uk-card-title">Event-Name</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="uk-card uk-card-default">
+							<div class="uk-card-media-top">
+								<img src="img/people.jpg" alt="">
+							</div>
+							<div class="uk-card-body">
+								<h3 class="uk-card-title">Event-Name</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+				<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+			</div>
+			<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+		</div>
+       </div>
+    </div>
+	<div id="article" class="sprung"></div>
+	<div class="uk-section uk-section-default">
+       <div class=" uk-container">
+         <article class="uk-article">
+			<h1 class="uk-article-title">Article Title</h1>
+			<p class="uk-article-meta">Written by <a href="#">UserX</a> on 20. Feb 2020</p>
+			<p class="uk-text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p class="uk-text-secondary">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p class="uk-text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p class="uk-text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ensed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.im ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p class="uk-text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.isi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="uk-grid-small uk-child-width-auto" uk-grid>
+				<div>
+					<a class="uk-button uk-button-text" href="#">Read more</a>
+				</div>
+				<div>
+					<a class="uk-button uk-button-text" href="#comments">5 Comments</a>
+				</div>
+			</div>
+		</article>
+		<div id="comments" class="sprung"></div>
+		<hr>
+		<ul class="uk-comment-list">
+			<li>
+				<article class="uk-comment uk-visible-toggle" tabindex="-1">
+					<header class="uk-comment-header uk-position-relative">
+						<div class="uk-grid-medium uk-flex-middle" uk-grid>
+						<div class="uk-width-auto">
+							<img class="uk-comment-avatar" src="img/man.jpg" width="80" height="80" alt="">
+						</div>
+						<div class="uk-width-expand">
+							<h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+							<p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">12 days ago</a></p>
+						</div>
+					</div>
+				<div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted" href="#">Reply</a></div>
+				</header>
+				<div class="uk-comment-body">
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				</div>
+				</article>
+				<ul>
+					<li>
+						<article class="uk-comment uk-comment-primary uk-visible-toggle" tabindex="-1">
+								<header class="uk-comment-header uk-position-relative">
+									<div class="uk-grid-medium uk-flex-middle" uk-grid>
+										<div class="uk-width-auto">
+											<img class="uk-comment-avatar" src="img/forest.jpg" width="80" height="80" alt="">
+										</div>
+										<div class="uk-width-expand">
+											<h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+											<p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">10 days ago</a></p>
+										</div>
+									</div>
+									<div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted" href="#">Reply</a></div>
+								</header>
+								<div class="uk-comment-body">
+									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+								</div>
+							</article>
+					</li>
+					<li>
+						<article class="uk-comment uk-visible-toggle" tabindex="-1">
+							<header class="uk-comment-header uk-position-relative">
+								<div class="uk-grid-medium uk-flex-middle" uk-grid>
+									<div class="uk-width-auto">
+										<img class="uk-comment-avatar" src="img/man.jpg" width="80" height="80" alt="">
+									</div>
+									<div class="uk-width-expand">
+										<h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+										<p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">9 days ago</a></p>
+									</div>
+								</div>
+								<div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted" href="#">Reply</a></div>
+							</header>
+							<div class="uk-comment-body">
+								<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+							</div>
+						</article>
+					</li>
+				</ul>	
+			</li>
+			<li>
+				<article class="uk-comment uk-visible-toggle" tabindex="-1">
+						<header class="uk-comment-header uk-position-relative">
+							<div class="uk-grid-medium uk-flex-middle" uk-grid>
+							<div class="uk-width-auto">
+								<img class="uk-comment-avatar" src="img/forest.jpg" width="80" height="80" alt="">
+							</div>
+							<div class="uk-width-expand">
+								<h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+								<p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">6 days ago</a></p>
+							</div>
+						</div>
+					<div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted" href="#">Reply</a></div>
+					</header>
+					<div class="uk-comment-body">
+						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+					</div>
+				</article>
+			</li>
+			<li>
+				<article class="uk-comment uk-visible-toggle" tabindex="-1">
+						<header class="uk-comment-header uk-position-relative">
+							<div class="uk-grid-medium uk-flex-middle" uk-grid>
+							<div class="uk-width-auto">
+								<img class="uk-comment-avatar" src="img/man.jpg" width="80" height="80" alt="">
+							</div>
+							<div class="uk-width-expand">
+								<h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Author</a></h4>
+								<p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset" href="#">Yesterday</a></p>
+							</div>
+						</div>
+					<div class="uk-position-top-right uk-position-small uk-hidden-hover"><a class="uk-link-muted" href="#">Reply</a></div>
+					</header>
+					<div class="uk-comment-body">
+						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+					</div>
+				</article>
+			</li>
+		</ul>
+       </div>
+    </div>
+    <div class="uk-section uk-section-secondary">
+       <div class=" uk-container">
+		<div class="uk-child-width-expand@s" uk-grid>
+			<div>
+				<h3>Contact</h3>
+				<div class="uk-inline">
+					<span class="uk-margin-medium-right" uk-icon="world"></span>
+					<div class="uk-position-center-right-out ">example&nbsp;street&nbsp;2 Osnabrück,&nbsp;Germany</div>
+				</div>
+				<br>
+				<br>
+				<div class="uk-inline">
+					<span class="uk-margin-medium-right" uk-icon="world"></span>
+					<div class="uk-position-center-right-out ">903458792043</div>
+				</div>
+				<br>
+				<br>
+				<div class="uk-inline">
+					<span class="uk-margin-medium-right" uk-icon="world"></span>
+					<div class="uk-position-center-right-out ">Email@email.com</div>
+				</div>	
+			</div>
+			<div>
+				<h3>About the company</h3>
+				<p>Under this small Text there will be social icons</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<div class="uk-width-1-1@m">
+                  <div class="uk-grid-divider uk-child-width-1-4@s uk-text-center uk-text-secondary" uk-grid>
+                     <div>
+                        <a href="https://www.hs-osnabrueck.de/" class="uk-icon-button uk-text-secondary" uk-icon="world"></a>
+                     </div>
+                     <div>
+                        <a href="https://www.hs-osnabrueck.de/" class="uk-icon-button uk-text-secondary" uk-icon="world"></a>
+                     </div>
+                     <div>
+                        <a href="https://www.hs-osnabrueck.de/" class="uk-icon-button uk-text-secondary" uk-icon="world"></a>
+                     </div>
+					 <div>
+                        <a href="https://www.hs-osnabrueck.de/" class="uk-icon-button uk-text-secondary" uk-icon="world"></a>
+                     </div>
+                  </div>
+               </div>
+			</div>
+		</div>  
+       </div>
+    </div>
+   </body>
+</html>

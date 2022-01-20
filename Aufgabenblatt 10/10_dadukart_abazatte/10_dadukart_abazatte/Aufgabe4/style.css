@@ -1,0 +1,63 @@
+* 
+{
+	font-family: Arial;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+}
+
+body, html
+{
+    height: 100%;
+}
+
+div#gerichtDiv
+{
+	background-color: lightgrey;
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+}
+
+input
+{
+	text-align: left;
+	width: 90%;
+}
+
+input#button
+{
+	width: 30%;
+	text-align: center;
+}
+
+div#linksDiv
+{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background-color: #f5f5dc;
+}
+
+div#mitteDiv
+{
+	width: 50%;
+	height: 33%;
+	background-color: #ff0000;
+	position: absolute;
+	margin-left: 25%;
+	top: 33%;
+}
+
+div#rechtsDiv
+{
+	float: right;
+	width: 50%;
+	height: 100%;
+	background-color: #bdb76b;
+}
+
+h1
+{
+	padding: 0.5em;
+}

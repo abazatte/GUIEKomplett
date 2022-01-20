@@ -1,0 +1,18 @@
+body
+{
+  font-family: consolas;
+  font-size: 128px;
+  color: white;
+  background-color: grey;
+}
+div
+{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 7em;
+  height: 2em;
+  margin-left: -3.5em;
+  margin-top: -1em;
+}

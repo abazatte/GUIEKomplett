@@ -1,0 +1,9 @@
+body {
+  background-color: yellow;
+}
+@media screen and (orientation: landscape) {
+    div {
+      float: left;
+      width: 45%;
+    }
+}

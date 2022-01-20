@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>snowman in X3D</title>
+    <link rel='stylesheet' href='./CSS/x3dom.css' />
+    <script src='./JS/x3dom.js'></script>
+</head>
+
+<body>
+    <X3D>
+        <scene>
+            <navigationinfo headlight='false'></navigationinfo>
+            <pointlight location='0 0 5' intensity='0.8' ambientintensity='0.8'></pointlight>
+            <!--your snowman -->
+            <transform translation='0 -2 0'>
+                <shape>
+                    <appearance>
+                        <material diffusecolor='1 .8 .5'></material>
+                    </appearance>
+                    <sphere radius='1.5'>
+                </shape>
+            </transform>
+            <transform translation='0 0 0'>
+                <shape>
+                    <appearance>
+                        <material diffusecolor='1 .8 .5'></material>
+                    </appearance>
+                    <sphere radius='1.25'>
+                </shape>
+            </transform>
+            <transform translation='0 1.5 0'>
+                <shape>
+                    <appearance>
+                        <material diffusecolor='1 .8 .5'></material>
+                    </appearance>
+                    <sphere radius='1'>
+                </shape>
+            </transform>
+            <transform translation='-0.25 1.75 0.67'>
+                <shape>
+                    <appearance>
+                        <material diffusecolor='black'></material>
+                    </appearance>
+                    <sphere radius='0.25'>
+                </shape>
+            </transform>
+          <transform translation='0.25 1.75 0.67'>
+              <shape>
+                  <appearance>
+                      <material diffusecolor='black'></material>
+                  </appearance>
+                  <sphere radius='0.25'>
+              </shape>
+          </transform>
+            <transform translation='0 1.5 1' rotation='5.0 0.0 0.0 1.5'>
+                <shape>
+                    <appearance>
+                        <material diffusecolor='orange'></material>
+                    </appearance>
+                    <cone bottomradius='0.2' height='1.5'> </cone>
+                </shape>
+            </transform>
+          <transform translation='0 2.25 0'>
+              <shape>
+                  <appearance>
+                      <material diffusecolor='red'></material>
+                  </appearance>
+                  <box size='2.5 0.1 2.5'> </box>
+              </shape>
+          </transform>
+          <transform translation='0 2.75 0'>
+              <shape>
+                  <appearance>
+                      <material diffusecolor='red'></material>
+                  </appearance>
+                  <cylinder radius='0.75' height='1.0'> </cylinder>
+              </shape>
+          </transform>
+        </scene>
+    </X3D>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>sphere in X3D</title>
+    <link rel='stylesheet' href='./CSS/x3dom.css' />
+    <script src='./JS/x3dom.js'></script>
+</head>
+
+<body>
+    <X3D>
+        <scene>
+            <navigationinfo headlight='false'></navigationinfo>
+            <pointlight location='0 0 5' intensity='0.8' ambientintensity='0.8'></pointlight>
+            <transform translation='0 2 0'>
+                <shape>
+                    <appearance>
+                        <material diffusecolor='1 .8 .5'></material>
+                    </appearance>
+                    <sphere radius='1.5'>
+                </shape>
+            </transform>
+        </scene>
+    </X3D>
+</body>
+
+</html>

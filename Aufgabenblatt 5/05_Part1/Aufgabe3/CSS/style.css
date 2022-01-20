@@ -1,0 +1,43 @@
+
+@media screen and (min-width: 1024px)
+{
+  div.HV
+  {
+    padding: 1%;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (orientation: portrait) and (max-width: 1024px) /* vertikal */
+{
+body
+{
+  font-family: sans-serif;
+  font-size: 4vw;
+  background-color: red;
+}
+div.HV
+{
+  padding: 1%;
+  box-sizing: border-box;
+}
+}
+
+@media screen and (orientation: landscape) and (max-width: 1024px) /* horizontal */
+{
+body
+{
+  font-family: sans-serif;
+  font-size: 2vw;
+  background-color: cyan;
+}
+div.HV
+{
+  padding: 1%;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+}

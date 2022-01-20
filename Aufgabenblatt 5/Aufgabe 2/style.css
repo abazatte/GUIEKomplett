@@ -1,0 +1,16 @@
+body {
+  background-color: lightblue;
+}
+
+@media screen and (orientation: landscape) {
+    div {
+      float: left;
+      width: 45%;
+    }
+}
+div.section1 {
+  padding-left: 2.5%;
+}
+div.section2{
+  padding-left: 2.5%;
+}
