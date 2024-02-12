@@ -1,0 +1,31 @@
+/* Styleheet: blue
+Version: 1 */
+
+body {
+/*   background: gainsboro url(logo.png) repeat-x; */
+background-color: blue;
+color: white;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: overline;
+}
+
+h2 {
+  text-align: left;
+  text-transform: capitalize;
+}
+
+h3 {
+  text-align: right;
+}
+
+p {
+   margin: 0p; color: rgb(250,0,0);
+
+}
+
+a{
+  color: yellowgreen;
+}
